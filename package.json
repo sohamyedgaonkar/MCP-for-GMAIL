@@ -1,0 +1,51 @@
+{
+  "name": "mcp-for-gmail",
+  "version": "1.0.0",
+  "description": "Mail Control Program for Gmail - Automate and enhance your Gmail experience",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "setup": "node src/setup.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohamyedgaonkar/MCP-for-GMAIL.git"
+  },
+  "keywords": [
+    "gmail",
+    "email",
+    "automation",
+    "productivity",
+    "filters",
+    "templates"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sohamyedgaonkar/MCP-for-GMAIL/issues"
+  },
+  "homepage": "https://github.com/sohamyedgaonkar/MCP-for-GMAIL#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "googleapis": "^126.0.1",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "body-parser": "^1.20.2",
+    "moment": "^2.29.4",
+    "open": "^9.1.0",
+    "cors": "^2.8.5",
+    "express-session": "^1.17.3",
+    "connect-mongo": "^5.0.0",
+    "mongoose": "^7.5.0",
+    "nodemailer": "^6.9.5",
+    "natural": "^6.7.1",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.6.4",
+    "supertest": "^6.3.3"
+  }
+}
